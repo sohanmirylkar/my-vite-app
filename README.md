@@ -1,12 +1,60 @@
-# React + Vite
+# Digital Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-page React application for browsing books and interacting with a simple digital-library interface. The project replaces the default Vite starter with routed pages, reusable components, login state, feedback, and contact flows.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive home and navigation experience
+- Browsable book collection
+- Client-side routing with React Router
+- Simple login state shared with book interactions
+- About, contact, and feedback pages
+- Reusable header and page components
+- Fast local development through Vite
 
-## Expanding the ESLint configuration
+## Technology
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React, React Router, Vite, JavaScript, CSS, and ESLint.
+
+## Project structure
+
+```text
+.
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## Getting started
+
+```bash
+git clone https://github.com/sohanmirylkar/my-vite-app.git
+cd my-vite-app
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite.
+
+## Commands
+
+```bash
+npm run dev      # Start the development server
+npm run build    # Create a production build
+npm run lint     # Run ESLint
+npm run preview  # Preview the production build
+```
+
+## Current scope
+
+Authentication and catalog behavior are front-end demonstrations. A production version would connect them to a persistent API and database, use secure sessions, and include automated component tests.
+
+## Author
+
+Sohan Miryalkar
